@@ -29,7 +29,9 @@ export const PATH_PAGE = {
 export const PATH_DASHBOARD = {
   root: ROOTS_DASHBOARD,
   general: {
-    app: path(ROOTS_DASHBOARD, '/app')
+    app: path(ROOTS_DASHBOARD, '/app'),
+    calendar: path(ROOTS_DASHBOARD, '/calendar'),
+
   },
 
   permissionDenied: path(ROOTS_DASHBOARD, '/permission-denied'),
