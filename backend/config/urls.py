@@ -55,6 +55,7 @@ urlpatterns = [
         name="swagger-ui",
     ),
     path("api/v1/accounts/", include("accounts.urls")),
+    path("api/v1/reminders/", include("reminders.urls")),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

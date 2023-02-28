@@ -34,16 +34,16 @@ export default function UserAccount() {
       icon: <Iconify icon={'ic:round-account-box'} width={20} height={20} />,
       component: <AccountGeneral />
     },
-    {
-      value: 'billing',
-      icon: <Iconify icon={'ic:round-receipt'} width={20} height={20} />,
-      component: <AccountBilling cards={_userPayment} addressBook={_userAddressBook} invoices={_userInvoices} />
-    },
-    {
-      value: 'notifications',
-      icon: <Iconify icon={'eva:bell-fill'} width={20} height={20} />,
-      component: <AccountNotifications />
-    },
+    // {
+    //   value: 'billing',
+    //   icon: <Iconify icon={'ic:round-receipt'} width={20} height={20} />,
+    //   component: <AccountBilling cards={_userPayment} addressBook={_userAddressBook} invoices={_userInvoices} />
+    // },
+    // {
+    //   value: 'notifications',
+    //   icon: <Iconify icon={'eva:bell-fill'} width={20} height={20} />,
+    //   component: <AccountNotifications />
+    // },
     {
       value: 'social_links',
       icon: <Iconify icon={'eva:share-fill'} width={20} height={20} />,
