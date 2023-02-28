@@ -33,7 +33,7 @@ const navConfig = [
     subheader: '',
     items: [
       { title: 'home', path: PATH_DASHBOARD.general.app, icon: ICONS.dashboard },
-      { title: 'calendar', path: PATH_DASHBOARD.general.calendar, icon: ICONS.calendar },
+      { title: 'Reminders', path: PATH_DASHBOARD.general.calendar, icon: ICONS.calendar },
     ]
   }
 

@@ -1,9 +1,8 @@
-import { Typography, TextField, FormControlLabel, Checkbox, Button, Box } from '@mui/material';
+import { Typography, TextField, FormControlLabel, Checkbox, Button } from '@mui/material';
 import { useState } from 'react';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import dayjs from 'dayjs';
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 
 // Define an array of options for the dropdown
